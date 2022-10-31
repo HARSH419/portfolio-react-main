@@ -9,12 +9,13 @@ import reactIcon from "../../assets/react-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
+import ProfileIcon from "../../assets/IMG_20221031_202804.jpeg"
 
 
 export function About(){
   return(
     <Container id="sobre">
-      <div className="about-text">
+      <div className="">
         <ScrollAnimation animateIn="fadeInLeft">
           <h2>About me</h2>
         </ScrollAnimation>
@@ -79,11 +80,11 @@ export function About(){
 
         </div>
       </div>
-      {/* <div className="about-image">
+      <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000}>
-          <img src="https://portfolio-joaotulio.vercel.app/img/foto_antiga.jpg" alt="Imagem de perfil" />
+          <img src={ProfileIcon} alt="Imagem de perfil" />
         </ScrollAnimation>
-      </div> */}
+      </div>
     </Container>
   )
 }
