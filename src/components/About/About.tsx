@@ -16,22 +16,22 @@ export function About(){
     <Container id="sobre">
       <div className="about-text">
         <ScrollAnimation animateIn="fadeInLeft">
-          <h2>Sobre mim</h2>
+          <h2>About me</h2>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.2 * 1000}>
-          <p>Me chamo Harsh Singhal, sou técnico em informática com uma grande paixão por programação. Sou apaixonado por entregar soluções que agregam na vida das pessoas e ao mesmo tempo me desafiam. Aprimorei minhas habilidades como desenvolvedor Front-End e Back-End</p>
+          <p>My name is Harsh Singhal, I'm a computer technician with a great passion for programming. I am passionate about delivering solutions that add to people's lives and at the same time challenge me. Improved my skills as a Front-End and Back-End developer</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.4 * 1000} style={{marginTop: "2rem", marginBottom: "2rem"}}>
 
-          <p>Desenvolvo sites e aplicações utilizando HTML, CSS, e JavaScript. Tenho familiaridade em desenvolver layouts que me fornecem. Estou sempre me aprimorando a cada projeto que colocam em minhas mãos.</p>
+          <p>I develop websites and mobile applications using React, React Native and JavaScript. I am familiar with developing layouts that provide me. I'm always improving myself with each project they put in my hands.</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn="fadeInLeft" delay={0.6 * 1000}>
 
-          <p>Sou uma pessoa dedicada que corre atrás para realizar seus sonhos, trabalhador e orientado a resultados, sempre busco alcançar minha melhor versão.</p>
+          <p>I am a dedicated person who pursues his dreams, hardworking and results-oriented, I always seek to achieve my best version.</p>
         </ScrollAnimation>
 
         <ScrollAnimation animateIn="fadeInLeft" delay={0.7 * 1000}>
-          <h3>Aqui estão as minhas principais habilidades:</h3>
+          <h3>Here are my main skills:</h3>
         </ScrollAnimation>
         <div className="hard-skills">
 
@@ -42,9 +42,9 @@ export function About(){
           </div>
 
           <div className="hability">
-          <ScrollAnimation animateIn="fadeInUp" delay={0.2 * 1000}>
-            <img src={vueIcon} alt="Vue" />
-          </ScrollAnimation>
+            <ScrollAnimation animateIn="fadeInUp" delay={0.1 * 1000}>
+              <img src={reactIcon} alt="React" />
+            </ScrollAnimation>
           </div>
 
           <div className="hability">
@@ -79,11 +79,11 @@ export function About(){
 
         </div>
       </div>
-      <div className="about-image">
+      {/* <div className="about-image">
         <ScrollAnimation animateIn="fadeInRight" delay={0.6 * 1000}>
           <img src="https://portfolio-joaotulio.vercel.app/img/foto_antiga.jpg" alt="Imagem de perfil" />
         </ScrollAnimation>
-      </div>
+      </div> */}
     </Container>
   )
 }

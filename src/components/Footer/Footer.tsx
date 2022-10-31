@@ -1,21 +1,21 @@
-import { Container } from './styles'
+import { Container } from "./styles";
 
-import reactIcon from '../../assets/react-icon.svg'
-import linkedinIcon from '../../assets/linkedin.png'
-import githubIcon from '../../assets/github.png'
-import instagramIcon from '../../assets/instagram.png'
-import discordIcon from '../../assets/discord.png'
+import reactIcon from "../../assets/react-icon.svg";
+import linkedinIcon from "../../assets/linkedin.png";
+import githubIcon from "../../assets/github.png";
+import instagramIcon from "../../assets/instagram.png";
+import discordIcon from "../../assets/discord.png";
 
 export function Footer() {
   return (
     <Container className="footer">
       <a href="/" className="logo">
-        <span>J</span>
-        <span>Tulio</span>
+        <span>H</span>
+        <span>S</span>
       </a>
       <div>
         <p>
-          Este site foi feito com <img src={reactIcon} alt="React" /> e muito
+          This site was made with a <img src={reactIcon} alt="React" /> lot of
           <span>❤️</span>
         </p>
       </div>
@@ -54,5 +54,5 @@ export function Footer() {
         </a>
       </div>
     </Container>
-  )
+  );
 }
