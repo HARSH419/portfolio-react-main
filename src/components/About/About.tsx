@@ -6,6 +6,9 @@ import htmlIcon from "../../assets/html-icon.svg";
 import jsIcon from "../../assets/js-icon.svg";
 import nodeIcon from "../../assets/node-icon.svg";
 import reactIcon from "../../assets/react-icon.svg";
+import bootstrapIcon from "../../assets/bootstrap-icon.svg";
+import MongoIcon from "../../assets/mongodb-icon.svg";
+import GradleIcon from "../../assets/gradle-icon.svg";
 import typescriptIcon from "../../assets/typescript-icon.svg";
 import vueIcon from "../../assets/vue-icon.svg";
 import ScrollAnimation from "react-animate-on-scroll";
@@ -44,7 +47,13 @@ export function About(){
 
           <div className="hability">
             <ScrollAnimation animateIn="fadeInUp" delay={0.1 * 1000}>
-              <img src={reactIcon} alt="React" />
+              <img src={bootstrapIcon} alt="Bootstrap" />
+            </ScrollAnimation>
+          </div>
+
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.1 * 1000}>
+              <img src={MongoIcon} alt="Mongo" />
             </ScrollAnimation>
           </div>
 
@@ -77,6 +86,12 @@ export function About(){
           </ScrollAnimation>
           </div>
 
+          <div className="hability">
+            <ScrollAnimation animateIn="fadeInUp" delay={0.1 * 1000}>
+              <img src={GradleIcon} alt="Gradle" />
+            </ScrollAnimation>
+          </div>
+
 
         </div>
       </div>
@@ -85,6 +100,7 @@ export function About(){
           <img src={ProfileIcon} alt="Imagem de perfil" />
         </ScrollAnimation>
       </div>
+
     </Container>
   )
 }
